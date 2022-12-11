@@ -18,11 +18,11 @@
 <resources>
     <!-- Package of the stub apk containing the themes descriptions -->
     <string name="themes_stub_package" translatable="false">
-        com.android.customization.themes
+        com.google.android.apps.customization.pixel
     </string>
 
     <!-- Package of the stub apk containing the clock content -->
-    <string name="clocks_stub_package" translatable="false"/>
+    <string name="clocks_stub_package" translatable="false">com.google.android.apps.customization.pixel</string>
 
     <!-- Authority of a System UI provider that provides preview info for available clockfaces. -->
     <string name="clocks_provider_authority" translatable="false">
@@ -34,10 +34,10 @@
     <!-- List of packages whose icons are used to preview the icon shape for a theme. These are
         typically GMS apps so they should be available in GMS devices. -->
     <array name="icon_shape_preview_packages">
-        <item>com.google.android.gm</item>
+        <item>com.android.contacts</item>
         <item>com.google.android.googlequicksearchbox</item>
-        <item>com.google.android.apps.photos</item>
-        <item>com.google.android.apps.docs</item>
+        <item>com.android.settings</item>
+        <item>com.android.deskclock</item>
         <item>com.google.android.youtube</item>
         <item>com.android.vending</item>
     </array>
